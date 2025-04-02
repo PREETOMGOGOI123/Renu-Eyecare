@@ -5,7 +5,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 function Hero() {
     // WhatsApp number - replace with your actual number
-    const whatsappNumber = "+919876543210";
+    const whatsappNumber = "+917002812274";
     const whatsappMessage = "Hello, I'd like to inquire about an appointment at Renu Eye Care.";
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
