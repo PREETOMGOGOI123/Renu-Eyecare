@@ -1,0 +1,22 @@
+.logo-eye-close {
+    animation: blink 2s infinite;
+}
+.logo-eye-open {
+    animation: blink-reverse 2s infinite;
+}
+@keyframes blink {
+    0%, 49%,51%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes blink-reverse {
+    50% {
+        opacity: 0;
+    }
+    0%, 49%,51%, 100% {
+        opacity: 1;
+    }
+}
